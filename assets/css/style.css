@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+:root{
+    --heading-color: #f8f8f8;
+    --bg-color: #000;
+    --btn-color: #e50914;
+    --input-bg: #ffffff;
+    --footer-text: #f3f3f3;
+    --question-bg: #555555;
+}
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+}
