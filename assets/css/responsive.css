@@ -1,7 +1,18 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
+    .header-area img {
+        width: 15%;
+    }
+    .sign-in {
+        width: 170px;
+        height: 35px;
+        margin-top: 10px;
+    }
     .content-wrapper {
         padding: 30px 0;
+    }
+    .home-content{
+        padding: 150px 0;
     }
     .hero-text {
         font-size: 45px;
@@ -29,5 +40,261 @@
         font-size: 25px;
         width: 35%;
     }
+    .tv-content {
+        width: 100%;
+        padding: 65px;
+    }
+    .left-content {
+        width: 50%;
+    }
+    .tv-heading{
+        font-size: 45px;
+    }
+    .tv-text{
+        font-size: 22px;
+    }
+    .right-content {
+        width: 50%;
+    }
+    .stranger-content {
+        width: 100%;
+    }
+    .stranger-left {
+        width: 50%;
+    }
+    .stranger-right {
+        width: 50%;
+        padding: 0 50px;
+    }
+    section.slogan-text {
+        min-height: 350px;
+    }
+    .content-slogan {
+        width: 50%;
+    }
+    .kids-heading {
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+    .kids-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+}
 
+@media only screen and (min-width:768px) and (max-width: 991px){
+    section{
+        min-height: 350px;
+    }
+    .header-area img {
+        width: 20%;
+    }
+    .sign-in {
+        width: 25%;
+        height: 32px;
+        margin-top: 10px;
+    }
+    .content-wrapper {
+        width: 75%;
+        padding-top: 40;
+    }
+    .hero-text {
+        font-size: 55px;
+        line-height: 60px;
+        padding-top: 90px;
+    }
+    .sub-title {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .text-info {
+        font-size: 17px;
+    }
+    .subscribe {
+        width: 90%;
+    }
+    input[type="text"] {
+        width: 65%;
+        padding: 22px 15px;
+        font-size: 15px;
+    }
+    .subscribe-btn {
+        padding: 16px 25px;
+        font-size: 25px;
+        width: 35%;
+    }
+    .tv-content {
+        width: 100%;
+        padding: 60px 20px;
+    }
+    .left-content{
+        width: 50%;
+    }
+    .right-content {
+        width: 50%;
+    }
+    .tv-heading {
+        font-size: 35px;
+        line-height: 85px;
+    }
+    .tv-text {
+        font-size: 20px;
+    }
+    .stranger-content {
+        width: 95%;
+    }
+    .stranger-left {
+        width: 50%;
+    }
+    .stranger-left img {
+        width: 100%;
+    }
+    .stranger-right {
+        width: 50%;
+    }
+    section.slogan-text {
+        height: 200px;
+    }
+    .content-slogan{
+        width: 65%;
+    }
+    .tv-heading {
+        font-size: 38px;
+    }
+    .kids-heading {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .kids-text {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    section{
+        min-height: 150px;
+    }
+    .banner-bg {
+        min-height: 60vh;
+    }
+    .header-area img {
+        width: 35%;
+    }
+    .sign-in {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .content-wrapper {
+        width: 90%;
+        padding: 10px 0;
+    }
+    .hero-text {
+        font-size: 35px;
+        line-height: 40px;
+        padding-top: 80px;
+    }
+    .sub-title {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+    .text-info {
+        font-size: 16px;
+    }
+    .subscribe {
+        width: 90%;
+    }
+    input[type="text"] {
+        width: 60%;
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    .subscribe-btn {
+        padding: 13px 10px;
+        font-size: 20px;
+        width: 40%;
+    }
+    .tv-content {
+        width: 95%;
+        padding: 30px 0;
+    }
+    .left-content {
+        padding: 15px;
+        margin-right: 10px;
+        width: 50%;
+    }
+    .right-content img{
+        width: 100%;
+    }
+    .tv-heading {
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .tv-text {
+        font-size: 12px;
+    }
+    .stranger-content{
+        width: 95%;
+        padding: 30px 0;
+    }
+    .stranger-left {
+        width: 50%;
+    }
+    .stranger-left img{
+        width: 100%;
+    }
+    .stranger-right {
+        width: 50%;
+        padding-right: 10px;
+    }
+    section.slogan-text {
+        height: 150px;
+    }
+    .content-slogan {
+        width: 70%;
+    }
+    .tv-heading {
+        line-height: 45px;
+    }
+    .kids-heading {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .kids-text {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+    .header-area img {
+        width: 30%;
+    }
+    .sign-in {
+        width: 50%;
+        margin-top: 0px;
+    }
+    .hero-text {
+        font-size: 42px;
+    }
+    .tv-heading {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .tv-text {
+        font-size: 15px;
+    }
+    .kids-heading {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .kids-text {
+        font-size: 15px;
+    }
 }
