@@ -1,300 +1,176 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1600px){
-    .header-area img {
-        width: 15%;
-    }
-    .sign-in {
-        width: 170px;
-        height: 35px;
-        margin-top: 10px;
-    }
-    .content-wrapper {
-        padding: 30px 0;
-    }
-    .home-content{
-        padding: 150px 0;
-    }
-    .hero-text {
-        font-size: 45px;
-        line-height: 50px;
-        padding-top: 40px;
-    }
-    .sub-title {
-        font-size: 30px;
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-    .text-info {
-        font-size: 15px;
-    }
-    .subscribe {
-        width: 100%;
-    }
-    input[type="text"] {
-        width: 65%;
-        padding: 22px 15px;
-        font-size: 18px;
-    }
-    .subscribe-btn {
-        padding: 18px 20px;
-        font-size: 25px;
-        width: 35%;
-    }
-    .tv-content {
-        width: 100%;
-        padding: 65px;
-    }
-    .left-content {
-        width: 50%;
-    }
-    .tv-heading{
-        font-size: 45px;
-    }
-    .tv-text{
-        font-size: 22px;
-    }
-    .right-content {
-        width: 50%;
-    }
-    .stranger-content {
-        width: 100%;
-    }
-    .stranger-left {
-        width: 50%;
-    }
-    .stranger-right {
-        width: 50%;
-        padding: 0 50px;
-    }
-    section.slogan-text {
-        min-height: 350px;
-    }
-    .content-slogan {
-        width: 50%;
-    }
-    .kids-heading {
-        font-size: 35px;
-        font-weight: 800;
-        line-height: 60px;
-    }
-    .kids-text {
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-    }
+     
 }
 
 @media only screen and (min-width:768px) and (max-width: 991px){
-    section{
-        min-height: 350px;
+    
+}
+
+@media only screen and (max-width: 767px){
+    
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .header-area .logo {
+        padding: 5px 10px;
     }
-    .header-area img {
-        width: 20%;
+    .header-area .logo img {
+        width: 80%;
     }
-    .sign-in {
-        width: 25%;
-        height: 32px;
-        margin-top: 10px;
+    .header-area .login-btn {
+        width: 30%;
+        padding: 10px;
     }
-    .content-wrapper {
-        width: 75%;
-        padding-top: 40;
+    .header-area .login-btn a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .home-content {
+        padding: 40px 0px;
+    }
+    .content-wrapper{
+    padding: 0;
     }
     .hero-text {
-        font-size: 55px;
-        line-height: 60px;
-        padding-top: 90px;
+        font-size: 28px;
+        line-height: 35px;
+        font-weight: 900;
     }
     .sub-title {
-        font-size: 30px;
+        font-size: 15px;
+        font-weight: 700;
         margin-top: 15px;
+        margin-bottom: 20px;
     }
     .text-info {
-        font-size: 17px;
-    }
-    .subscribe {
-        width: 90%;
+        font-size: 15px;
+        line-height: 18px;
+           margin-bottom: 8px;
     }
     input[type="text"] {
-        width: 65%;
-        padding: 22px 15px;
+        width: 100%;
+        padding: 15px 10px;
         font-size: 15px;
+        border-radius: 3px;
     }
-    .subscribe-btn {
-        padding: 16px 25px;
-        font-size: 25px;
-        width: 35%;
+    
+    input[type="submit"] {
+        width: 60%;
+        padding: 15px 0;
+        font-size: 15px;
+        border-radius: 2px;
+        margin-top: 8px;
     }
     .tv-content {
+        display: block;
+            width: 90%;
+           padding: 10px 0;
+    }
+    
+    .left-content {
+        padding: 20px;
         width: 100%;
-        padding: 60px 20px;
-    }
-    .left-content{
-        width: 50%;
-    }
-    .right-content {
-        width: 50%;
+     text-align: center;
+    
     }
     .tv-heading {
-        font-size: 35px;
+        font-size: 30px;
+        font-weight: 700;
         line-height: 85px;
+        text-align: center;
     }
+    
     .tv-text {
-        font-size: 20px;
+        font-size: 17px;
     }
-    .stranger-content {
-        width: 95%;
+    .right-content {
+        width: 100%;
+        text-align: center;
     }
+    .right-content img{
+    width: 100%;
+    }
+   
+    
     .stranger-left {
-        width: 50%;
+        width: 100%;
     }
     .stranger-left img {
         width: 100%;
     }
     .stranger-right {
-        width: 50%;
+        width: 100%;
+        text-align: justify;
     }
+    
     section.slogan-text {
-        height: 200px;
+        min-height: 350px;
+        display: block;
+      text-align: center;
     }
-    .content-slogan{
-        width: 65%;
+    .content-slogan {
+        width: 90%;
+        padding: 30px 15px;
+        margin: 0 auto;
     }
-    .tv-heading {
-        font-size: 38px;
+    .stranger-content {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        padding: 10px 8px;
     }
     .kids-heading {
-        font-size: 32px;
-        line-height: 50px;
+        font-size: 24px;
+        line-height: 60px;
+        font-weight: 800;
     }
     .kids-text {
         font-size: 17px;
     }
-
-}
-
-@media only screen and (max-width: 767px){
-    section{
-        min-height: 150px;
-    }
-    .banner-bg {
-        min-height: 60vh;
-    }
-    .header-area img {
-        width: 35%;
-    }
-    .sign-in {
-        width: 100%;
-        height: 30px;
-        font-size: 15px;
-        margin-top: 5px;
-    }
-    .content-wrapper {
+    .qa-container {
         width: 90%;
-        padding: 10px 0;
+       padding: 20px 10px;
     }
-    .hero-text {
-        font-size: 35px;
+    
+    .qa-title {
+        font-size: 28px;
         line-height: 40px;
-        padding-top: 80px;
+        padding: 20px 0;
     }
-    .sub-title {
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 22px;
-    }
-    .text-info {
-        font-size: 16px;
-    }
-    .subscribe {
-        width: 90%;
-    }
-    input[type="text"] {
-        width: 60%;
-        padding: 15px 10px;
+    .qa-item-box {
         font-size: 15px;
+      padding: 20px 10px;
     }
-    .subscribe-btn {
-        padding: 13px 10px;
-        font-size: 20px;
-        width: 40%;
+    
+    .qa-form {
+        padding: 35px 0;
     }
-    .tv-content {
-        width: 95%;
-        padding: 30px 0;
+    .footer-area {
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 10px;
     }
-    .left-content {
-        padding: 15px;
-        margin-right: 10px;
-        width: 50%;
-    }
-    .right-content img{
-        width: 100%;
-    }
-    .tv-heading {
+    .footer-title {
         font-size: 18px;
-        line-height: 60px;
+        padding: 20px 0;
+        text-align: left;
     }
-    .tv-text {
-        font-size: 12px;
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
-    .stranger-content{
-        width: 95%;
-        padding: 30px 0;
-    }
-    .stranger-left {
+    .col-1-4 {
         width: 50%;
+        color: #fff;
     }
-    .stranger-left img{
-        width: 100%;
+    ul{
+    text-align: left;
     }
-    .stranger-right {
-        width: 50%;
-        padding-right: 10px;
-    }
-    section.slogan-text {
-        height: 150px;
-    }
-    .content-slogan {
-        width: 70%;
-    }
-    .tv-heading {
-        line-height: 45px;
-    }
-    .kids-heading {
-        font-size: 16px;
-        line-height: 30px;
-        font-weight: 700;
-    }
-    .kids-text {
-        font-size: 12px;
-    }
-
-}
-
-@media only screen and (min-width:480px) and (max-width:767px){
-    .header-area img {
-        width: 30%;
-    }
-    .sign-in {
-        width: 50%;
-        margin-top: 0px;
-    }
-    .hero-text {
-        font-size: 42px;
-    }
-    .tv-heading {
-        font-size: 20px;
-        line-height: 50px;
-    }
-    .tv-text {
-        font-size: 15px;
-    }
-    .kids-heading {
-        font-size: 22px;
-        line-height: 40px;
-    }
-    .kids-text {
-        font-size: 15px;
+    ul li{
+    padding: 2px 0
     }
 }

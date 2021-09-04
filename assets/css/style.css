@@ -52,39 +52,47 @@ section{
     justify-content: space-between;
     margin: 0 auto;
 }
-.header-area{
-    padding: 10px 20px;
+.header-area .logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
 }
-.header-area img{
-    width: 12%;
+.header-area .logo img{
+    width: 25%;
+}
+.header-area .login-btn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
     
 }
-.sign-in {
+.header-area .login-btn a{
     background-color: var(--btn-color);
-    width: 90px;
-    height: 40px;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     border-radius: 5px;
-    margin-top: 15px;
-    cursor: pointer;
+    padding: 8px 20px;
 }
 .home-content {
 	padding: 150px 0px;
 }
 .content-wrapper {
-    width: 50%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding: 30px 0;
+    padding: 30px 370px;
 }
 .hero-text {
     font-size: 75px;
     line-height: 80px;
     font-weight: 700;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 .sub-title {
     font-size: 35px;
@@ -92,15 +100,14 @@ section{
     margin-top: 20px;
     margin-bottom: 25px;
 }
-.text-info{
-    font-size: 20px;
+.subscribe-form {
+    width: 100%;
+    margin: 0 auto;
 }
-
-.subscribe {
-    width: 80%;
-    height: auto;
-    overflow: hidden;
-    margin: 10px auto;
+.text-info {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
 }
 
 input[type="text"] {
@@ -111,14 +118,16 @@ input[type="text"] {
     font-size: 18px;
     border-radius: 5px 0 0 5px;
 }
-.subscribe-btn {
-    float: left;
+input[type="submit"] {
+    width: 30%;
+    padding: 20px 0;
+    font-size: 22px;
+    background: var(--btn-color);
     color: #fff;
-    background-color: var(--btn-color);
-    padding: 15px 30px;
-    font-size: 29px;
-    width: auto;
+    font-weight: 700;
+    cursor: pointer;
 }
+
 .left-content {
     align-items: center;
     justify-content: center;
@@ -174,52 +183,29 @@ section.slogan-text{height: 350px;}
 
 .qa-container{
     width: 80%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 370px;
 }
 .qa-title {
-    font-size: 45px;
-    font-weight: 800;
-    padding: 35px 0;
+    font-size: 50px;
+    line-height: 150px;
+    text-align: center;
 }
 .qa-item-box {
-    width: 50%;
+    width: 100%;
     background: #303030;
     margin-bottom: 10px;
     padding: 20px 20px;
     font-size: 25px;
     cursor: pointer;
 }
-.qa-btn {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
+.qa-form {
+    padding: 50px 0;
 }
-.subscribe {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin: 10px auto;
-}
-input[type="text"] {
-    width: 70%;
-    float: left;
-    padding: 22px 10;
-    border: 1px solid #fff;
-    font-size: 18px;
-    color:#000;
-    border-radius: 5px 0 0 5px;
-}
-.subscribe-btn {
-    float: left;
-    color: #fff;
-    background-color: var(--btn-color);
-    padding: 15px 30px;
-    font-size: 29px;
-    width: 30%;
-}
+
 .footer-section{
     background-color: #000;
     min-height: 300px;
