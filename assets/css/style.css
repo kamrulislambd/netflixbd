@@ -27,7 +27,7 @@ section{
     color: #fff;
 }
 .banner-bg{
-    background-image: url(/assets/images/netflex_banner.jpg);
+    background-image: url(../images/netflex_banner.jpg);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -170,6 +170,7 @@ section.slogan-text{height: 350px;}
 .kids-text{
     font-size: 25px;
 }
+<<<<<<< HEAD
 
 .qa-container{
     width: 80%;
@@ -256,3 +257,5 @@ ul li a:hover{
 h4.footer-title {
     font-size: 14px;
 }
+=======
+>>>>>>> c750f43305ed71d5ec2382d6ed98c597c51f6c76
