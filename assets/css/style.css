@@ -67,6 +67,7 @@ section{
     color: #fff;
     border-radius: 5px;
     margin-top: 15px;
+    cursor: pointer;
 }
 .home-content {
 	padding: 150px 0px;
@@ -206,9 +207,10 @@ section.slogan-text{height: 350px;}
 input[type="text"] {
     width: 70%;
     float: left;
-    padding: 22px 0;
+    padding: 22px 10;
     border: 1px solid #fff;
     font-size: 18px;
+    color:#000;
     border-radius: 5px 0 0 5px;
 }
 .subscribe-btn {
