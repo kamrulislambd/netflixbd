@@ -1,17 +1,307 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1600px){
-     
+    .banner-bg {
+        min-height: 75vh;
+    }
+    .header-area .logo img {
+        width: 40%;
+    }
+    .home-content {
+        padding: 170px 0px;
+    }
+    .content-wrapper {
+        width: 95%;
+        padding: 50px 60px;
+    }
+    .hero-text {
+        font-size: 65px;
+        line-height: 75px;
+    }
+    .sub-title {
+        font-size: 32px;
+    }
+    .subscribe-form {
+        width: 80%;
+    }
+    .tv-content {
+        width: 95%;
+        padding: 70px 0;
+    }
+    .left-content {
+        padding: 15px;
+        margin-right: 15px;
+    }
+    .tv-heading {
+        font-size: 50px;
+        line-height: 95px;
+    }
+    .tv-text {
+        font-size: 20px;
+    }
+    .right-content img {
+        width: 100%;
+    }
+    .stranger-content {
+        width: 95%;
+       padding: 70px 0;
+    }
+    .stranger-left img {
+        width: 100%;
+    }
+    section.slogan-text {
+        min-height: 300px;
+    }
+    .content-slogan {
+        width: 70%;
+    }
+    .kids-heading {
+        font-size: 40px;
+        line-height: 85px;
+    }
+    .kids-text {
+        font-size: 20px;
+    }
+    .qa-container {
+        width: 95%;
+        padding: 30px 60px;
+    }
+    .subscribe-form {
+        width: 95%;
+    }
+    .text-info {
+        font-size: 20px;
+    }
+    input[type="text"] {
+        font-size: 22px;
+    }
+    input[type="submit"] {
+        font-size: 25px;
+    }
+    .footer-area {
+        width: 95%;
+        padding: 50px 20px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width: 991px){
-    
+    .banner-bg {
+        min-height: 75vh;
+     }
+     .header-area .logo img {
+         width: 45%;
+     }
+     .header-area .login-btn a {
+         font-size: 18px;
+         padding: 5px 10px;
+     }
+     .home-content {
+         padding-top: 70px;
+     }
+     .content-wrapper {
+         width: 95%;
+         padding: 30px 30px;
+     }
+     .hero-text {
+         font-size: 60px;
+         line-height: 70px;
+     }
+     .sub-title {
+         font-size: 30px;
+     }
+     .subscribe-form {
+         width: 90%;
+     }
+     .text-info {
+         font-size: 18px;
+     }
+     input[type="text"] {
+         padding: 20px 15px;
+         font-size: 16px;
+     }
+     input[type="submit"] {
+         padding: 16px 0;
+     }
+     section {
+         min-height: 380px;
+     }
+     .tv-content {
+         width: 95%;
+         padding: 60px 0;
+     }
+     .left-content {
+         margin-right: 10px;
+     }
+     .tv-heading {
+         font-size: 35px;
+         line-height: 80px;
+     }
+     .tv-text {
+         font-size: 18px;
+     }
+     .right-content img {
+         width: 100%;
+     }
+     .stranger-content {
+         width: 95%;
+         padding: 30px 0;
+     }
+     .stranger-left img {
+         width: 100%;
+     }
+     .content-slogan {
+         width: 80%;
+     }
+     .kids-heading {
+         font-size: 35px;
+         line-height: 45px;
+         margin-bottom: 18px;
+     }
+     .kids-text {
+         font-size: 18px;
+     }
+     .qa-container {
+         width: 95%;
+         padding: 30px 10px;
+     }
+     .qa-title {
+         font-size: 45px;
+         line-height: 130px;
+     }
+     .qa-item-box {
+         padding: 17px 20px;
+         font-size: 22px;
+     }
+     .footer-area {
+         width: 95%;
+         padding: 50px 10px;
+     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (min-width:481px) and (max-width: 767px){
+    .banner-bg {
+        min-height: 70vh;
+    }
+    .header-area .logo {
+        padding: 15px;
+    }
+    .header-area .logo img {
+        width: 50%;
+    }
+    .header-area .login-btn {
+        padding: 15px;
+    }
+    .header-area .login-btn a {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .home-content {
+        padding: 70px 0px;
+    }
+    .content-wrapper {
+        width: 90%;
+        padding: 30px 30px;
+    }
+    .hero-text {
+        font-size: 35px;
+        line-height: 45px;
+        padding-top: 10px;
+    }
+    .sub-title {
+        font-size: 22px;
+    }
+    .text-info {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    input[type="text"] {
+        padding: 16px 15px;
+        font-size: 15px;
+    }
+    input[type="submit"] {
+        padding: 16px 0;
+        font-size: 15px;
+    }
+    section {
+        min-height: 330px;
+    }
+    .tv-content {
+        width: 95%;
+    }
+    .left-content {
+        padding: 12px;
+        margin-right: 5px;
+    }
+    .tv-heading {
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .tv-text {
+        font-size: 15px;
+    }
+    .right-content img {
+        width: 100%;
+    }
+    .stranger-content {
+        width: 95%;
+        padding: 40px 0;
+    }
+    .stranger-left img {
+        width: 100%;
+    }
+    section.slogan-text {
+        min-height: 280px;
+    }
+    .content-slogan {
+        width: 95%;
+        padding: 0 20px;
+    }
+    .kids-heading {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .kids-text {
+        font-size: 15px;
+        padding: 30px 0;
+    }
+    .qa-container {
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .qa-title {
+        font-size: 25px;
+        line-height: 90px;
+    }
+    .qa-item-box {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .footer-area {
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .footer-content {
+        display: block;
+        overflow: hidden;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .col-1-4 {
+        width: 50%;
+        float: left;
+        margin-bottom: 15px;
+    }
+    .footer-title {
+        padding: 10px 0;
+    }
+    ul li {
+        padding: 1px 0;
+    }
     
 
 }
 
+/* media query for small device */
 @media only screen and (min-width:320px) and (max-width:480px){
     .header-area .logo {
         padding: 5px 10px;
